@@ -6,6 +6,13 @@
 2. Navigate to the property `scripts.start`
 3. It should read `PORT=3000 react-scripts start`. Change the port number, close the app server, and run `yarn start` to boot it up again.
 
+## Running Docker
+
+* Navigate to /counter-app
+* Open the terminal and run `docker build -t fearless:dev .` and wait for the Docker build to run.
+* To start the server, run `docker-compose up -d --build`
+* To stop the server, run `docker-compose stop`
+
 ## Future updates, changes, or oustanding code
 
 1. Add a state management library like Context API, MobX, or Redux
