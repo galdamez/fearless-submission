@@ -1,7 +1,7 @@
 import './App.css';
 import CounterButton from './CounterButton';
 import LoadingMessage from './LoadingMessage';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function App() {
   const [count, setCount] = useState(0);
