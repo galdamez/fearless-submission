@@ -2,19 +2,20 @@ import PropTypes from 'prop-types';
 import './CountView.css';
 export default function CountView({ count, loading }) {
   return (
-      <>
+    <div className="count-view-container">
       {
-        count > 0 && 
-        <div className="count-view-container">
-          {
-            loading ? 
-              <span className="loading-message">Loading&hellip;</span>
-              :
-              <span>{count} hits</span>
-          }
-        </div>
+        count === 0 && !loading &&
+        <span className="welcome-message">Please click above to get started</span>
       }
-    </>
+      {
+        loading && 
+        <span className="loading-message">Loading&hellip;</span>
+      }
+      {
+        count > 0 && !loading && 
+        <span>{count} hits</span>
+      }
+    </div>
   )
 }
 

@@ -5,6 +5,11 @@
   width: 100%;
 }
 
+.count-view-container .welcome-message {
+  color: gray;
+  font-size: 0.75em;
+}
+
 .count-view-container .loading-message {
   color: darkgray;
   font-size: 0.5em;
