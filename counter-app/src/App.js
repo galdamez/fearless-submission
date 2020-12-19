@@ -1,9 +1,10 @@
 import './App.css';
+import CounterButton from './CounterButton';
 
 function App() {
   return (
-    <div>
-      Hello, world
+    <div className="app-container">
+      <CounterButton />
     </div>
   );
 }
