@@ -6,24 +6,3 @@ body {
   text-align: center;
   margin-top: 150px;
 }
-
-.counter-button {
-  background-color: #513269;
-  color: #fff;
-  border-radius: 14px;
-  width: 425px;
-  padding: 40px 60px;
-  font-size: 4em;
-}
-
-.count-view-container {
-  text-align: center;
-  font-size: 4em;
-  margin-top: 50px;
-  width: 100%;
-}
-
-.count-view-container .loading-message {
-  color: darkgray;
-  font-size: 0.5em;
-}

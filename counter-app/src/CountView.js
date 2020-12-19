@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './CountView.css';
 export default function CountView({ count, loading }) {
   return (
       <>
