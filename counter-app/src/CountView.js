@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-export default function LoadingMessage({ count, loading }) {
+export default function CountView({ count, loading }) {
   return (
       <>
       {
         count > 0 && 
-        <div className="count-container">
+        <div className="count-view-container">
           {
             loading ? 
               <span className="loading-message">Loading&hellip;</span>
@@ -17,7 +17,7 @@ export default function LoadingMessage({ count, loading }) {
   )
 }
 
-LoadingMessage.propTypes = {
+CountView.propTypes = {
   count: PropTypes.number.isRequired,
   loading: PropTypes.bool.isRequired
 }

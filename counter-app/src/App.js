@@ -1,6 +1,6 @@
 import './App.css';
 import CounterButton from './CounterButton';
-import LoadingMessage from './LoadingMessage';
+import LoadingMessage from './CountView';
 import { useState } from 'react';
 
 export default function App() {
