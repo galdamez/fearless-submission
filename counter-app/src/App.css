@@ -1,14 +1,24 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .app-container {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .counter-button {
   background-color: #513269;
   color: #fff;
   border-radius: 14px;
-  width: 300px;
+  width: 425px;
   padding: 40px 60px;
   font-size: 4em;
-  cursor: pointer;
+}
+
+.count-container {
+  text-align: center;
+  font-size: 4em;
+  margin-top: 50px;
+  width: 100%;
 }
