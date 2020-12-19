@@ -14,6 +14,8 @@
 4. Add Font Awesome library in case we need icons
 5. Obtain any necessary branding related the customer's needs
 6. Add polyphills for support of Internet Explorer 11 and below
+7. Be prepared to break the app into chunks if several parts grow in file size or they negatively affect the initial load of the application
+8. The user might want to be able to decrease or reset the number of hits
 
 ## Assumptions, changes, or details of the implementation
 
@@ -21,3 +23,5 @@
 2. With a router, we will need to ensure the server can properly route the requests to the respective views.
 3. Assumption: SEO is not a priority at this stage. If it ever is, we would have to consider a server-side rendering solution like Next.js.
 4. The user is not using Internet Explorer
+5. The API key is checked into the code for now because it is not a sensitive piece of information. If we would need to protect a secret key, that means we would store that value in a file that isn't checked into Git.
+6. Assumpton: The user does not want to know the current number of hits when the app loads.
