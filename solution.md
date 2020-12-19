@@ -1,5 +1,11 @@
 # Solution
 
+## Changing the port number
+
+1. Open /counter-app/package.json
+2. Navigate to the property `scripts.start`
+3. It should read `PORT=3000 react-scripts start`. Change the port number, close the app server, and run `yarn start` to boot it up again.
+
 ## Future updates, changes, or oustanding code
 
 1. Add a state management library like Context API, MobX, or Redux
