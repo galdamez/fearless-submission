@@ -22,3 +22,8 @@ body {
   margin-top: 50px;
   width: 100%;
 }
+
+.loading-message {
+  color: darkgray;
+  font-size: 0.5em;
+}
